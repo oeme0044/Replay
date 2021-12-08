@@ -1,3 +1,9 @@
+:root {
+  --first-color: #f01012;
+  --white-color: #ffffff;
+  --text-color: #1a1a1a;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -9,6 +15,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+  font-family: "Red Hat Display SemiBold", serif;
 }
 
 ul, ol {
@@ -24,6 +31,7 @@ li {
 p {
   margin: 0;
   padding: 0;
+  font-family: "Poppins Medium", serif;
 }
 
 img {
@@ -33,9 +41,138 @@ img {
 }
 
 
-.bgimage {
-  width:100%;
-  height:500px;
-  background-size:cover;
-  background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c') no-repeat fixed center;
+.herobillede {
+  width: 100%;
+  height: 100vh;
+  background: url(../image/Replay-Hero-image.png);
+  background-size: cover;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
+
+.gameon-section{
+  background-color: var(--first-color);
+}
+
+.border-for-text{
+  border-radius: 15px;
+  border: 5px solid black;
+}
+
+
+.text-lys-farve{
+  color: var(--first-color);
+}
+
+.card{
+  border-radius: 1rem;
+  flex-direction: unset !important;
+  margin: 0;
+
+  @media screen and (max-width: 752px ){
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 752px ){
+    margin: 0 auto;
+    width: 90%;
+  }
+
+}
+
+.linje {
+
+  height: 3px;
+  border-radius: 5px;
+  background: #f01012;
+  width: 30%;
+  margin: auto auto 2rem;
+  @media screen and(min-width: 768px){
+    width: 20%;
+  }
+  @media screen and(min-width: 768px){
+    width: 15%;
+  }
+
+}
+
+.card-body{
+  border: 4px solid black;
+  border-radius: 0.5rem;
+  min-width: 245px;
+  height: 245px;
+}
+
+.card-text-skills{
+  font-size: 16px;
+}
+
+.card-body1{
+  margin-top: -20px;
+
+}
+
+
+@media screen and (min-width: 768px ) {
+  .card-text-skills {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+
+  }
+
+
+  .card-header-text {
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 30px;
+
+  }
+
+
+}
+@media screen and (min-width: 1024px ){
+  .card-text-skills {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+
+  }
+
+
+  .card-header-text {
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 30px;
+
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .card-body1 {
+    margin-top: -70px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .card-body1 {
+    margin-top: -100px;
+  }
+}
+
+/* Til Mobil visning */
+@media screen and (min-width: 320px) {
+  .card {
+    max-width: 65%;
+  }
+}
+
+
