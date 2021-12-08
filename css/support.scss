@@ -1,0 +1,262 @@
+
+.herobillede {
+  width:100%;
+  height: 35vh;
+  background:url(../Image/supportbillede.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgover{
+  color: white;
+}
+
+.contact-form{
+  max-width: 600px;
+  padding: 0 10px;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  padding: 20px 20px;
+  outline: none;
+  color: black;
+  transition: 0.5s;
+  font-size: 14px;
+}
+
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  border: 0;
+  background: #F01012;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 5px;
+}
+
+.infotekst{
+  padding: 20px;
+  line-height: 2;
+  font-size: 32px;
+  color: black;
+}
+.infotekst2{
+  line-height: 2;
+  color: black;
+
+}
+.infoteks3{
+  line-height: 2;
+  text-decoration: none;
+  color: black;
+}
+
+.infoteks3:hover{
+  color: black;
+}
+.infoover{
+  padding: 20px;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+}
+
+.åbenover{
+  padding: 20px;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  margin-top: 80px;
+}
+
+.åbentekst{
+  color: black;
+  margin-top: 30px;
+}
+
+.line2{
+  margin: auto;
+  background-color: black;
+  height: 1px;
+  width: 25%;
+  text-align: center;
+}
+.line3{
+  margin: auto;
+  background-color: black;
+  height: 1px;
+  width: 18%;
+  text-align: center;
+}
+
+
+.ksektekst{
+  padding: 15px;
+  line-height: 2.5;
+  font-size: 14px;
+  color: black;
+  margin-top: -10px;
+}
+
+.ksekover{
+  padding: 15px;
+  font-size: 22px;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: -10px;
+}
+
+
+.sektion2{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+
+}
+
+.line1{
+  margin: 15px;
+  background-color: black;
+  height: 1px;
+  width: 40%;
+}
+
+.map{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.omholdet{
+  margin-top: 80px;
+}
+
+.lineholdet{
+  margin: auto;
+  background-color: black;
+  height: 1px;
+  width: 20%;
+}
+
+.overholdet{
+  font-size: 23px;
+  text-align: center;
+}
+
+.kortsektion{
+  padding: 25px;
+}
+
+.replayline{
+  margin: auto;
+  background-color: white;
+  height: 1px;
+  width: 15%;
+}
+
+.omreplay{
+  background:#F01012 ;
+}
+.replayover{
+  padding: 15px;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.replaytekst{
+  padding: 15px;
+  line-height: 2.5;
+  font-size: 14px;
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 768px){
+  .herobillede{
+    height: 40vh;
+  }
+  .contact-form{
+    padding: 0 60px;
+    max-width: 700px;
+  }
+  .åbenover{
+    margin-top: 70px;
+    font-size: 24px;
+  }
+  .infoover{
+    font-size: 24px;
+  }
+  .ksektekst{
+    padding: 60px;
+    font-size: 15px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+  }
+  .ksekover{
+    font-size: 24px;
+    padding: 60px;
+    text-align: left;
+    margin-bottom: -20px;
+  }
+  .line1{
+    margin: 0 60px;
+    width: 30%;
+  }
+  .infotekst{
+    margin-top: 30px;
+  }
+
+  .sektion2{
+    text-align: center;
+    margin-top: 60px;
+
+  }
+
+
+}
+
+@media screen and (min-width: 1024px){
+  .herobillede{
+    height: 50vh;
+  }
+  .contact-form{
+    padding: 0 60px;
+    max-width: 800px;
+  }
+  .sektion2{
+    text-align: center;
+    margin-top: 90px;
+  }
+  .ksektekst{
+    padding: 60px;
+    font-size: 16px;
+    width: 85%;
+  }
+  .ksekover{
+    margin-bottom: -30px;
+    padding: 60px;
+    font-size: 24px;
+  }
+  .line1{
+    margin: 0 60px;
+    width: 20%;
+  }
+
+}
