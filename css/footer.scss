@@ -1,17 +1,13 @@
 
+
 .footerMargin{
   width: 80%;
 }
 
 .footerMenu{
-
-  font-family: "Red Hat Display", sans-serif;
   width: 85%;
-
-  margin-bottom: 2rem;
   h1{
     text-transform: capitalize;
-
   }
   a{
     padding-top: 1rem;
@@ -20,15 +16,22 @@
     color: white;
     text-decoration: none;
     display: block;
-
+    text-align: start;
+  }
+  .productBox{
+    display: inline-block;
+    text-align: center;
+    
   }
   @media screen and(min-width: 768px){
     text-align: center;
+
   }
 
 }
 
 .footerSupport{
+margin-top: 4rem;
 
   h1{
     text-transform: capitalize;
@@ -40,17 +43,23 @@
     color: white;
     text-decoration: none;
     display: block;
+    text-align: start;
 
+  }
+  .supportBox{
+    display: inline-block;
+    text-align: center;
   }
   @media screen and(min-width: 768px){
     text-align: center;
+    margin-top: 0;
   }
 
 }
 
 .footerFollow{
 
-  margin-top: 2rem;
+  margin-top: 4rem;
 
   h1{
     text-transform: capitalize;
@@ -62,8 +71,21 @@
     text-decoration: none;
     color: white;
   }
+  .followBox{
+    display: inline-block;
+    text-align: center;
+    .some{
+      text-align: start;
+    }
+  }
 
   @media screen and(min-width: 768px){
     text-align: center;
+    margin-top: 4rem;
+
+  }
+
+  @media screen and(min-width: 992px){
+    margin-top: 0;
   }
 }
