@@ -42,7 +42,6 @@ img {
 
 .herobillede {
   width:100%;
-  height: 35vh;
   background:url(../image/Replay-Hero-image.png);
   display: flex;
   justify-content: center;
@@ -154,6 +153,10 @@ img {
   .card-body-anbefal{
   }
 
+  .herobillede{
+
+  }
+
 
 
 
@@ -161,7 +164,7 @@ img {
 }
 @media screen and (min-width: 1024px ){
   .herobillede{
-    height: 50vh;
+    height: 75vh;
   }
 
   .card-text-skills {
