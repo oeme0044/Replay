@@ -1,0 +1,81 @@
+
+.bg-color{
+  background-color: #101010;
+
+  .barColor{
+    background-color: white;
+  }
+
+  .navbar-brand{
+    margin-left: 50px;
+  }
+}
+/* Remove border from toggler */
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+/* Lines of the Toggler */
+.toggler-icon{
+  width: 30px;
+  height: 3px;
+  background-color: white;
+
+  display: block;
+  transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar{
+  margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+  /* transform: rotate(45deg);*/
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  /*opacity: 0;
+  filter: alpha(opacity=0);*/
+}
+
+.navbar-toggler .bottom-bar {
+  /*transform: rotate(-45deg);*/
+  transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: white;
+}
+
+
+
+.nav-item{
+  font-family: "Red Hat Display",sans-serif;
+  text-transform: uppercase;
+}
+
+.cartIcon{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
