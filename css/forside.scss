@@ -15,7 +15,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
-  font-family: "Red Hat Display SemiBold", serif;
+  font-family: "Red Hat Display Bold", serif;
 }
 
 ul, ol {
@@ -40,17 +40,19 @@ img {
   height: auto;
 }
 
-
 .herobillede {
-  width: 100%;
-  height: 100vh;
-  background: url(../image/Replay-Hero-image.png);
-  background-size: cover;
+  width:100%;
+  height: 35vh;
+  background:url(../image/Replay-Hero-image.png);
   display: flex;
-  position: relative;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
 
 .gameon-section{
   background-color: var(--first-color);
@@ -88,6 +90,8 @@ img {
   background: #f01012;
   width: 30%;
   margin: auto auto 2rem;
+
+
   @media screen and(min-width: 768px){
     width: 20%;
   }
@@ -104,6 +108,16 @@ img {
   height: 245px;
 }
 
+
+.card-body-anbefal{
+  background-color: var(--first-color);
+  border: 4px solid white;
+  border-radius: 0.5rem;
+  min-width: 245px;
+}
+
+
+
 .card-text-skills{
   font-size: 16px;
 }
@@ -115,6 +129,11 @@ img {
 
 
 @media screen and (min-width: 768px ) {
+
+  .herobillede{
+    height: 40vh;
+  }
+
   .card-text-skills {
     margin: 0;
     padding: 0;
@@ -132,9 +151,19 @@ img {
 
   }
 
+  .card-body-anbefal{
+  }
+
+
+
+
 
 }
 @media screen and (min-width: 1024px ){
+  .herobillede{
+    height: 50vh;
+  }
+
   .card-text-skills {
     margin: 0;
     padding: 0;
