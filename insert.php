@@ -24,7 +24,7 @@ if (!empty($_POST["data"])) {
 
     $db->sql($sql, $bind, false);
 
-    header("Location: insert.php?status=1");
+    header("Location: insert.php?status=0");
     exit;
 
 }
