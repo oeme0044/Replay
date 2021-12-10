@@ -66,7 +66,7 @@ if (!empty($_POST["data"])) {
 
 
 <nav class="navbar bg-dark navbar-light justify-content-between p-5 mb-5">
-    <a class="navbar-brand fw-bold text-white"><h2>Rock Finder
+    <a class="navbar-brand fw-bold text-white"><h2>Produkter
             <small class="text-muted">Indsæt Produkter Her</small>
         </h2></a>
 
