@@ -84,12 +84,13 @@
 </div>
 
 
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
     <path fill="#f01012" fill-opacity="1" d="M0,128L1440,32L1440,320L0,320Z"></path>
 </svg>
 
-<div class="omreplay" data-aos="fade-up">
-    <div class="replaycon container">
+<div class="omreplay">
+    <div class="replaycon container" data-aos="fade-up">
     <p class="replayover">Om Replay</p>
     <div class="replayline"></div>
     <p class="replaytekst">Vi er 4 gutter fra Lolland-Falster, som er gaming entusiaster. Vi kom på ideen om genbrugte gaming computere, da vi stod til at skulle opgradere vores computere. Vi måtte dog konkludere hvor svært det var at bygge en gaming PC i dag, med det store resource mangel. Vi tænkte at der var mange med samme problem, og valgte derfor at hjælpe vores
