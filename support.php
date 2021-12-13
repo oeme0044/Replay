@@ -172,82 +172,9 @@
     </div>
 </div>
 
-
-<footer class="page-footer pt-5 pb-3">
-
-    <div class="container footerMargin">
-        <div class="row">
-
-            <div class="col-xs-12 col-sm-6 col-lg-3">
-                <div class="footerMenu">
-                    <div class="productBox">
-                        <h2>Produkter</h2>
-                        <a href="#">Desktop</a>
-                        <a href="#">skærme</a>
-                        <a href="#">tilbehør</a>
-                        <a href="#">support</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-lg-3 ">
-                <div class="footerSupport">
-                    <div class="supportBox">
-                        <h2>support</h2>
-                        <a href="#">kontakt</a>
-                        <a href="#">om os</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-lg-6 ">
-                <div class="footerFollow">
-                    <div class="followBox">
-                        <h2 class="mb-3">fang os på</h2>
-                        <div class="some mb-5">
-                            <a class="icons" target="_blank" href="#">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                            <a class="icons" target="_blank" href="#">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                            <a class="icons" target="_blank" href="#">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footerLine">
-
-    </div>
-
-
-
-    <div class="container">
-
-
-
-        <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <div class="copyright">
-                    <p>Copyrigt 2021. Alle rettigheder forbeholdes</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <div class="danmark">
-                    <p class="text-uppercase">Danmark</p>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-</footer>
+<div class ="map" data-aos="fade-up">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.4283020820562!2d11.8627130158927!3d54.772437780302575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ad30feb5b165f5%3A0xac1a3baf932b3324!2sSlotsbryggen%2014%2C%204800%20Nyk%C3%B8bing%20Falster!5e0!3m2!1sda!2sdk!4v1639384262331!5m2!1sda!2sdk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
 
 
 <script src="Js/support.js"></script>
