@@ -1,4 +1,4 @@
-<?php
+    <?php
 require "settings/init.php";
 
 if (!empty($_POST["data"])) {
