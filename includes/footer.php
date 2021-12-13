@@ -3,7 +3,7 @@
     <div class="container footerMargin">
         <div class="row">
 
-            <div class="col-xs-12 col-sm-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="footerMenu">
                     <div class="productBox">
                         <h2>Produkter</h2>
@@ -15,17 +15,17 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-lg-3 ">
+            <div class="col-sm-12 col-md-6 col-lg-3 ">
                 <div class="footerSupport">
                     <div class="supportBox">
                         <h2>support</h2>
-                        <a href="#">kontakt</a>
-                        <a href="#">om os</a>
+                        <a href="#">Kontakt</a>
+                        <a href="#">Om os</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-lg-6 ">
+            <div class="col-sm-12 col-md-6 col-lg-6 ">
                 <div class="footerFollow">
                     <div class="followBox">
                         <h2 class="mb-3">fang os på</h2>
@@ -34,10 +34,7 @@
                                 <i class="fab fa-facebook-square"></i>
                             </a>
                             <a class="icons" target="_blank" href="#">
-                                <i class="fab fa-facebook-square"></i>
-                            </a>
-                            <a class="icons" target="_blank" href="#">
-                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-instagram"></i>
                             </a>
                         </div>
                     </div>
@@ -47,7 +44,7 @@
         </div>
     </div>
 
-    <div class="footerLine">
+    <div class="footerLine mt-lg-4">
 
     </div>
 
@@ -58,12 +55,12 @@
 
 
         <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <div class="copyright">
+            <div class="col-sm-12 col-md-8 col-lg-4 text-lg-center">
+                <div class="copyright text-capitalize">
                     <p>Copyrigt 2021. Alle rettigheder forbeholdes</p>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-sm-12 col-md-4 col-lg-8 mb-2">
                 <div class="danmark">
                     <p class="text-uppercase">Danmark</p>
                 </div>

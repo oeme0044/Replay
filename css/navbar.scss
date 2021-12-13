@@ -1,81 +1,75 @@
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-right: 1rem;
+}
 
-.bg-color{
-  background-color: #101010;
+.navbar-toggler{
+  border: 0!important;
+  color: transparent!important;
+}
 
-  .barColor{
-    background-color: white;
+.navbar-expand-lg{
+  background-color: black!important;
+}
+.navbar-collapse{
+  justify-content: flex-end!important;
+}
+.navbar-brand{
+  color: white!important;
+  font-size: 26px;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+.nav-link{
+  color: white!important;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.navcon{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.navbar-dark .navbar-toggler-icon{
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255,2550.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+@media screen and (min-width: 768px){
+  .nav-link{
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .navbar-brand{
+    margin-left: 35px;
+  }
+}
+
+
+
+@media screen and (min-width: 969px){
+
+  .navbar-nav{
+    .nav-link{
+      font-size: 14px;
+      margin-top: 0;
+    }
   }
 
   .navbar-brand{
-    margin-left: 50px;
+    margin:  0 0 0 60px;
   }
+
+  .navbar-collapse{
+    margin-right: 40px;
+  }
+
 }
-/* Remove border from toggler */
-.navbar-toggler {
-  border: 0;
+.kurv{
+  background: #82030C;
 }
-
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-  outline: none;
-  box-shadow: none;
-  border: 0;
-}
-
-/* Lines of the Toggler */
-.toggler-icon{
-  width: 30px;
-  height: 3px;
-  background-color: white;
-
-  display: block;
-  transition: all 0.2s;
-}
-
-/* Adds Space between the lines */
-.middle-bar{
-  margin: 5px auto;
-}
-
-/* State when navbar is opened (START) */
-.navbar-toggler .top-bar {
-  /* transform: rotate(45deg);*/
-  transform-origin: 10% 10%;
-}
-
-.navbar-toggler .middle-bar {
-  /*opacity: 0;
-  filter: alpha(opacity=0);*/
-}
-
-.navbar-toggler .bottom-bar {
-  /*transform: rotate(-45deg);*/
-  transform-origin: 10% 90%;
-}
-/* State when navbar is opened (END) */
-
-
-/* Color of Toggler when collapsed */
-.navbar-toggler.collapsed .toggler-icon {
-  background-color: white;
-}
-
-
-
-.nav-item{
-  font-family: "Red Hat Display",sans-serif;
-  text-transform: uppercase;
-}
-
-.cartIcon{
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-
-
 
 

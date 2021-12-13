@@ -26,6 +26,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/support.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
+    <link href="css/navbar.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,6 +34,8 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
+
+<?php include "includes/navbar.php";?>
 
 <div class="px-5 py-5 text-left herobillede">
     <div class="herosek">
@@ -172,9 +175,11 @@
     </div>
 </div>
 
-<div class ="map" data-aos="fade-up">
+<div class ="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2301.4283020820562!2d11.8627130158927!3d54.772437780302575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ad30feb5b165f5%3A0xac1a3baf932b3324!2sSlotsbryggen%2014%2C%204800%20Nyk%C3%B8bing%20Falster!5e0!3m2!1sda!2sdk!4v1639384262331!5m2!1sda!2sdk" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
+
+<?php include "includes/footer.php";?>
 
 
 <script src="Js/support.js"></script>

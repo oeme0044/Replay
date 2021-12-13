@@ -13,6 +13,10 @@
     text-transform: capitalize;
     color: var(--white-color);
     font-family: var(--overskrift-font);
+    @media screen and(min-width: 768px){
+      font-size: 26px ;
+    }
+
   }
   a{
     padding-top: 1rem;
@@ -21,47 +25,47 @@
     color: var(--white-color);
     text-decoration: none;
     display: block;
-    text-align: start;
     font-family: var(--tekst-font);
-  }
-  .productBox{
-    display: inline-block;
-    text-align: center;
-    
-  }
-  @media screen and(min-width: 576px){
-    text-align: center;
-
+    font-size: 15px;
   }
 
 }
+@media screen and(min-width: 576px){
+  a{
+    font-size: 16px;
+  }
+  margin-top: 0;
 
-.footerSupport{
-margin-top: 4rem;
+}
+
+  .footerSupport{
+  margin-top: 4rem;
 
   h2{
     text-transform: capitalize;
     color: var(--white-color);
     font-family: var(--overskrift-font);
+
+    @media screen and(min-width: 768px){
+      font-size: 26px ;
+    }
   }
   a{
-    text-transform: capitalize;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: var(--white-color);
     text-decoration: none;
     display: block;
-    text-align: start;
     font-family: var(--tekst-font);
+    font-size: 15px;
 
   }
-  .supportBox{
-    display: inline-block;
-    text-align: center;
-  }
   @media screen and(min-width: 576px){
-    text-align: center;
+    a{
+      font-size: 16px;
+    }
     margin-top: 0;
+
   }
 
 }
@@ -74,6 +78,10 @@ margin-top: 4rem;
     text-transform: capitalize;
     color: var(--white-color);
     font-family: var(--overskrift-font);
+
+    @media screen and(min-width: 768px){
+      font-size: 26px ;
+    }
   }
 
   .icons{
@@ -82,16 +90,8 @@ margin-top: 4rem;
     text-decoration: none;
     color: var(--white-color);
   }
-  .followBox{
-    display: inline-block;
-    text-align: center;
-    .some{
-      text-align: start;
-    }
-  }
 
   @media screen and(min-width: 576px){
-    text-align: center;
     margin-top: 4rem;
 
   }
@@ -105,7 +105,7 @@ margin-top: 4rem;
 .footerLine{
   width: 80%;
   height: 2px;
-  background-color: #707070;
+  background-color: white;
   margin: auto;
 
   @media screen and(min-width: 992px){
@@ -117,12 +117,14 @@ margin-top: 4rem;
 .copyright{
   width: 80%;
   margin: 1rem auto;
-  text-transform: capitalize;
   color: var(--white-color);
   font-family: var(--tekst-font);
+  font-size: 12px;
 
   @media screen and (min-width: 576px){
     margin-top: 5rem;
+    font-size: 13px;
+
   }
 }
 
@@ -131,10 +133,13 @@ margin-top: 4rem;
   margin: auto;
   color: var(--white-color);
   font-family: var(--tekst-font);
+  font-size: 12px;
 
   @media screen and (min-width: 576px){
     margin-top: 5rem;
     text-align: end;
+    font-size: 13px;
+
 
 
   }
