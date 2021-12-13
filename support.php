@@ -26,6 +26,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/support.css" rel="stylesheet" type="text/css">
     <link href="css/footer.css" rel="stylesheet" type="text/css">
+    <link href="css/navbar.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,6 +34,8 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
+
+<?php include "includes/navbar.php";?>
 
 <div class="px-5 py-5 text-left herobillede">
     <div class="herosek">
