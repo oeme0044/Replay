@@ -26,7 +26,7 @@ $data = json_decode(file_get_contents('php://input'), true);
 
 header('Content-Type: application/json; charset=utf-8');
 
-if (isset($data["password"]) && $data["password"] == "Bnop1146") {
+if (isset($data["password"]) && $data["password"] == "") {
     $sql = "SELECT * FROM replay_produkter WHERE 1=1";
     $bind = [];
 
@@ -101,10 +101,5 @@ if (isset($data["password"]) && $data["password"] == "Bnop1146") {
 
     echo json_encode($replay_produkter);
 
-} else {
-    header("HTTP/1.1 401 Unauthorized");
-    $error["errorMessage"] = "Your Password is Incorrect";
 
-    echo json_encode($error);
-}
 
