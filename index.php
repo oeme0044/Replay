@@ -1,8 +1,17 @@
 <?php
 require "settings/init.php";
 
-$blogs = $db->sql("SELECT * FROM blogs");
+if (!empty($_GET["type"])) {
+    if ($_GET["type"] == "slet"){
+        $id = $_GET["id"];
 
-foreach ($blogs as $blog){
-    echo $blog->blogName . "<br>";
+        $db->sql("DELETE FROM produkter WHERE prodId = :prodId", [":prodId"=>$id], false);
+
+        header("Location: index.php");
+
+    }
+
 }
+
+
+include 'includes/navbar.php';

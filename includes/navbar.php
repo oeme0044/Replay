@@ -1,7 +1,7 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-color ">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-            <img src="logo/logo.png" alt="logo" height="53" width="170"/>
+            <img src="./Image/logo.png" alt="logo" height="53" width="170"/>
         </a>
         <button class="navbar-toggler ms-auto collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="toggler-icon top-bar "></span>
@@ -28,9 +28,10 @@
                     <a class="nav-link active" aria-current="page" href="#">support</a>
                 </li>
                 <li class="nav-item">
-                    <div class="cartIcon" href="#">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
+                    <img alt="" src="Image/Underlay%20til%20Kurv.png"
+                        <div class="cartIcon" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
                 </li>
             </ul>
 
