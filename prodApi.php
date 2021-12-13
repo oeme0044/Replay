@@ -101,5 +101,10 @@ if (isset($data["password"]) && $data["password"] == "") {
 
     echo json_encode($replay_produkter);
 
+} else {
+    header("HTTP/1.1 401 Unauthorized");
+    $error["errorMessage"] = "Your Password is Incorrect";
 
+    echo json_encode($error);
+}
 
