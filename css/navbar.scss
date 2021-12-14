@@ -13,9 +13,28 @@
   font-family: var(--overskrift-font);
   font-size: 13px;
   border-bottom:2px solid #10101010;
+
+  &:hover{
+    color: #80808080;
+  }
+  &:focus{
+    color: var(--text-color);
+  }
 }
 
 .kurv{
   color: var(--text-color);
   font-size: 20px;
+
+  &:hover{
+    color: #80808080;
+  }
+}
+
+@media (min-width: 1024px){
+  .nav-link{
+    font-size: 14px;
+    border-bottom: none;
+  }
+
 }
