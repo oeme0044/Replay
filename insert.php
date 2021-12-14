@@ -11,7 +11,7 @@ if (!empty($_POST["data"])) {
     }
 
 
-    $sql = "INSERT INTO produkter (prodNavn, prodPrismrd, prodProcesser, prodGrafikkort, prodRam,  prodImage VALUES 
+    $sql = "INSERT INTO produkter (prodNavn, prodPrismrd, prodProcesser, prodGrafikkort, prodRam,  prodImage) VALUES 
                                         (:prodNavn, :prodPrismrd, :prodProcesser, :prodGrafikkort, :prodRam,  :prodImage)";
     $bind = [
         ":prodNavn" => $data["prodNavn"],

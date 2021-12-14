@@ -133,6 +133,21 @@
 	</div>
 </div>
 
+
+<div class="container p-5">
+	<div class="products  ">
+		<div class="filter p-5"></div>
+
+
+		<div class="items ">
+			<!-- Her vises musikken -->
+		</div>
+	</div>
+</div>
+
+
+
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f01012" fill-opacity="1" d="M0,96L1440,224L1440,320L0,320Z"></path></svg>
 
 <div class="d-flex justify-content-center gameon-section " >
@@ -187,9 +202,17 @@
 </svg>
 
 
-<?php include "includes/footer.php";?>
+
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module">
+	import Products from "./js/products";
+
+	const products = new Products();
+	products.init();
+
+
+</script>
 </body>
 </html>

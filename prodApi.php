@@ -30,70 +30,45 @@ if (isset($data["password"]) && $data["password"] == "") {
     $sql = "SELECT * FROM replay_produkter WHERE 1=1";
     $bind = [];
 
-    if (!empty($data["artistSearch"])) {
-        $sql .= " AND muArtist LIKE CONCAT('%', :muArtist, '%')  ";
-        $bind[":muArtist"] = $data["artistSearch"];
+    if (!empty($data["navnSearch"])) {
+        $sql .= " AND prodNavn LIKE CONCAT('%', :prodNavn, '%')  ";
+        $bind[":prodNavn"] = $data["navnSearch"];
 
     }
 
-    if (!empty($data["trackSearch"])) {
-        $sql .= " OR muTrack LIKE CONCAT('%', :muTrack, '%')  ";
-        $bind[":muTrack"] = $data["trackSearch"];
+    if (!empty($data["processerSearch"])) {
+        $sql .= " OR prodProcesser LIKE CONCAT('%', :prodProcesser, '%')  ";
+        $bind[":prodProcesser"] = $data["processerSearch"];
 
     }
 
-    if (isset($data["albumSearch"])) {
-        $sql .= " AND muAlbum = :muAlbum";
-        $bind[":muAlbum"] = $data["albumSearch"];
+    if (isset($data["grafikkortSearch"])) {
+        $sql .= " AND prodGrafikkort = :prodGrafikkort";
+        $bind[":prodGrafikkort"] = $data["grafikkortSearch"];
 
     }
 
-    if (isset($data["genreSearch"])) {
-        $sql .= " AND muGenre = :muGenre";
-        $bind[":muGenre"] = $data["genreSearch"];
+    if (isset($data["ramSearch"])) {
+        $sql .= " AND prodRam = :prodRam";
+        $bind[":prodRam"] = $data["ramSearch"];
 
     }
 
-    if (isset($data["stylesSearch"])) {
-        $sql .= " AND muStyles = :muStyles";
-        $bind[":muStyles"] = $data["stylesSearch"];
-
-    }
-
-
-    if (isset($data["membersSearch"])) {
-        $sql .= " AND muMembers = :muMembers";
-        $bind[":muMembers"] = $data["membersSearch"];
-
-    }
-
-
-    if (!empty($data["releaseSearch"])) {
-        $sql .= " AND muRelease LIKE CONCAT('%', :muRelease, '%')  ";
-        $bind[":muRelease"] = $data["releaseSearch"];
-
-    }
-
-    if (isset($data["durationSearch"])) {
-        $sql .= " AND muDuration >= :muDuration";
-        $bind[":muDuration"] = $data["durationSearch"];
-
-    }
 
     if (isset($data["priceSearch"])) {
-        $sql .= " AND muPrice >= :muPrice";
-        $bind[":muPrice"] = $data["priceSearch"];
+        $sql .= " AND prodPrismrd >= :prodPrismrd";
+        $bind[":prodPrismrd"] = $data["priceSearch"];
 
     }
 
     if (isset($data["imageSearch"])) {
-        $sql .= " AND muPicture >= :muPicture";
-        $bind[":muPicture"] = $data["imageSearch"];
+        $sql .= " AND prodImage >= :prodImage";
+        $bind[":prodImage"] = $data["imageSearch"];
 
     }
 
 
-    $sql .= " ORDER BY muPrice DESC";
+
 
 
     $replay_produkter = $db->sql($sql, $bind);
