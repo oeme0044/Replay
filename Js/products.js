@@ -1,7 +1,7 @@
 export default class Products {
     constructor() {
         this.data = {
-            password: ""
+            password: "1234"
 
         }
 
@@ -11,25 +11,8 @@ export default class Products {
 
         this.navnSearch = this.filter.querySelector('.navnSearch');
         this.processerSearch = this.filter.querySelector('.processerSearch');
-    }
 
-    async init(){
-        this.navnSearch.addEventListener('input', () => {
-            this.render();
-
-        });
-
-
-        this.processerSearch.addEventListener('input', () => {
-            this.render();
-
-        });
-
-
-
-
-        await this.render();
-
+        this.render();
     }
 
     async render(){
@@ -81,9 +64,9 @@ export default class Products {
     async getData (){
 
 
-        this.data.navnSearch = this.navnSearch.value;
-        this.data.grafikkortSearch = this.navnSearch.value;
-        this.data.processerSearch = this.processerSearch.value;
+        //this.data.navnSearch = this.navnSearch.value;
+        //this.data.grafikkortSearch = this.navnSearch.value;
+        //this.data.processerSearch = this.processerSearch.value;
 
         const response = await fetch('prodApi.php', {
             method: "POST",
