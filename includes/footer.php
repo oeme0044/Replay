@@ -17,7 +17,7 @@
 
             <div class="col-sm-12 col-md-6 col-lg-3 ">
                 <div class="footerSupport">
-                    <div class="supportBox">
+                    <div class="supportBox text-capitalize">
                         <h2>support</h2>
                         <a href="#">Kontakt</a>
                         <a href="#">Om os</a>
