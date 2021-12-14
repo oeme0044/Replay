@@ -26,23 +26,24 @@ export default class Products {
             col.classList.add('col-md-6', 'col-lg-4', 'col-xl-3');
 
             col.innerHTML = `
-                <div class="card h-100 text-white bg-dark itemsImg">
-                    <img src="uploads/${item.prodImage}" class="card-img-top" alt="">
-                    <div class="card-body d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title text-white">${item.prodNavn}</h5>
-                            <p class="text-muted mb-3">Fra ${item.prodPrismrd} kr/md.</p>
-                            <p class="card-text p-1 text-white">${item.prodProcesser}</p>
-                            <p class="card-text p-1 text-white">${item.prodGrafikkort}</p>
-                            <p class="card-text p-1 text-white">${item.prodRam}</p>
+                 <div class="p-3">
+                    <div class="container">
+                        <div class=" d-flex justify-content-center">
+                            <div class="card col-md-6 " >
+                                <div class="card-body-products text-center">
+                                    <img src="uploads/${item.prodImage}" class="card-img-top" alt="">
+                                    <h5 class="card-title text-black">${item.prodNavn}</h5>
+                                    <p class="text-muted mb-3">Fra ${item.prodPrismrd} kr/md.</p>
+                                    <p class="card-text p-1 text-black">${item.prodProcesser}</p>
+                                    <p class="card-text p-1 text-black">${item.prodGrafikkort}</p>
+                                    <p class="card-text p-1 text-black">${item.prodRam}</p>
+                                    <a href="#" class="btn m-5 btn-primary text-white border-white">Se Mere</a>
+                                </div>
+                            </div>
                         </div>
-                        <a href="muPage.php?rockId=${item.prodId}" 
-                            class="btn btn-outline-light btn-floating btn-rounded w-100 mt-2">
-                                 <i class="fas fa-info-circle">  See More</i>
-                            
-                        </a>
                     </div>
                 </div>
+
                 
                 
                 

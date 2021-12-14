@@ -25,3 +25,199 @@
 
 
 <?php include 'includes/navbar.php'; ?>
+
+
+<body>
+
+
+<div class="px-5 py-5 text-left herobillede">
+    <div class="herosek"></div>
+</div>
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+    <path fill="#f01012" fill-opacity="1" d="M0,128L1440,32L1440,320L0,320Z"></path>
+</svg>
+
+<div class="gameon-section">
+    <div class="container">
+        <div class="d-flex justify-content-center" style="height: 400px">
+            <div class="align-self-center border-for-text p-5">
+                <h1 class="text-center text-white" style="font-family: 'Red Hat Display',serif" >Game On</h1>
+                <div class="badge badge-primary text-wrap text-center" style="width: 30rem; font-family: 'Poppins',serif; font-size: xx-large">
+                    Med en computer fra os
+                    er du klar til at game på
+                    nul komma fem, plus er
+                    alle vores computere og
+                    komponenter testet,
+                    opdateret og klar til kamp
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+    <path fill="#f01012" fill-opacity="1" d="M0,64L1440,160L1440,0L0,0Z"></path>
+</svg>
+
+
+
+<div class="d-flex justify-content-center" id="kompetencer">
+    <h1 class="p-2 text-black justify-content-center">Når du handler med os</h1>
+
+</div>
+<div  class="linje mb-5"></div>
+
+
+
+<div class="container ">
+
+    <div class="row">
+        <div class=" col-lg-3 col-md-6 d-flex align-content-center flex-wrap ">
+            <div class="card d-flex justify-content-evenly border-0 p-3 p-md-4 mb-4 mb-lg-0">
+                <div class="  p-2 card-body">
+                    <div class="icon  mb-4 d-flex justify-content-center">
+                        <img src="Image/Rocket%20Icon.png" style="width: 45%; height: 45%; position: relative; margin-top: -60px;" alt="">
+                    </div>
+                    <h5 class="card-header-text mb-2 d-flex justify-content-center text-black">Fri <span
+                                class="text-lys-farve ms-1">Fragt</span>
+                    </h5>
+                    <p class="card-text-skills text-center text-black">Vi har altid fri fragt
+                        på alle vores produkter.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex align-content-center flex-wrap ">
+            <div class="card d-flex justify-content-evenly border-0 p-3 p-md-4 mb-4 mb-lg-0">
+                <div class=" p-2 card-body">
+                    <div class="icon mb-4 d-flex justify-content-center">
+                        <img src="Image/Return%20Icon.png" style="width: 45%; height: 45%; position: relative; margin-top: -60px;" alt="">
+                    </div>
+                    <h5 class="card-header-text mb-2 d-flex justify-content-center text-black">Fuld <span
+                                class="text-lys-farve ms-1">Returret</span>
+                    </h5>
+                    <p class="card-text-skills text-center text-black">Hos os har du altid
+                        14 dages returret fra den dag,
+                        du modtager din computer.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6  d-flex align-content-center flex-wrap ">
+            <div class="card d-flex justify-content-evenly border-0 p-3 p-md-4 mb-4 mb-lg-0">
+                <div class=" p-2 card-body">
+                    <div class="icon  mb-4 d-flex justify-content-center">
+                        <img src="Image/Checkmarker%20Icon.png" style="width: 45%; height: 45%; position: relative; margin-top: -60px;" alt="">
+                    </div>
+                    <h5 class="card-header-text mb-2 d-flex justify-content-center text-black">100 % <span
+                                class="text-lys-farve ms-1">Testet</span></h5>
+                    <p class="card-text-skills text-center text-black">Hver computer går igennem
+                        strenge tests for at sikre,
+                        at alt virker.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6  d-flex align-content-center flex-wrap ">
+            <div class="card d-flex justify-content-evenly border-0 p-3 p-md-4 mb-4 mb-lg-0">
+                <div class=" p-2 card-body">
+                    <div class="icon  mb-4 d-flex justify-content-center">
+                        <img src="Image/Windows%20Icon.png" style="width: 45%; height: 45%; position: relative; margin-top: -60px;" alt="">
+                    </div>
+                    <h5 class="card-header-text mb-2 d-flex justify-content-center text-black">Windows <span
+                                class="text-lys-farve ms-1"> 10</span></h5>
+                    <p class="card-text-skills text-center text-black">Alle vores computere
+                        har Windows 10 installeret
+                        og aktiveret</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container p-5">
+    <div class="products  ">
+        <div class="filter p-5"></div>
+
+
+        <div class="items ">
+            <!-- Her vises musikken -->
+        </div>
+    </div>
+</div>
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f01012" fill-opacity="1" d="M0,96L1440,224L1440,320L0,320Z"></path></svg>
+
+<div class="d-flex justify-content-center gameon-section " >
+    <h1 class="p-3 mb-3 text-white">Vi Anbefaler </h1>
+</div>
+
+
+
+<div class="gameon-section p-3">
+    <div class="container">
+        <div class=" d-flex justify-content-center">
+            <div class="card col-md-6 " style="width: 18rem;">
+                <div class="card-body-anbefal text-center">
+                    <img class="card-img-top p-4 mb-2" src="Image/Komplett-i120-Epic-Gaming-PC-RTX-3060-Edition-removebg.png" alt="Card image cap">
+                    <h5 class="card-title text-white">Old Wolf Gaming PC</h5>
+                    <p class="text-muted mb-3">Fra 185 kr/md.</p>
+                    <p class="card-text p-1 text-white">Intel® Core™ i7-6700K</p>
+                    <p class="card-text p-1 text-white">Nvidia GTX 1070</p>
+                    <p class="card-text p-1 text-white">16gb ram</p>
+                    <a href="#" class="btn m-5 btn-primary text-white border-white">Se Mere</a>
+                </div>
+            </div>
+            <div class="card col-md-6 d-none d-lg-block" style="width: 18rem;">
+                <div class="card-body-anbefal text-center">
+                    <img class="card-img-top p-4 mb-4" src="Image/pc.png" alt="Card image cap">
+                    <h5 class="card-title text-white">Highend Gaming PC</h5>
+                    <p class="text-muted mb-3">Fra 285 kr/md.</p>
+                    <p class="card-text p-1 text-white">Intel® Core™ i7-12600KF</p>
+                    <p class="card-text p-1 text-white">Nvidia RTX 3060</p>
+                    <p class="card-text p-1 text-white">16gb ram</p>
+                    <a href="#" class="btn m-5 btn-primary text-white border-white">Se Mere</a>
+                </div>
+            </div>
+            <div class="card col-md-6 d-none d-sm-block " style="width: 18rem;">
+                <div class="card-body-anbefal text-center">
+                    <img class="card-img-top p-4" src="Image/Avant-Tower-Gaming-PC.png" alt="Card image cap">
+                    <h5 class="card-title text-white">Little Giant Gaming PC</h5>
+                    <p class="text-muted mb-3">Fra 175 kr/md.</p>
+                    <p class="card-text p-1 text-white">Intel® Core™ i5-6600K </p>
+                    <p class="card-text p-1 text-white">Nvidia GTX 1050 ti </p>
+                    <p class="card-text p-1 text-white">8gb ram </p>
+                    <a href="#" class="btn m-5 btn-primary text-white border-white">Se Mere</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#f01012" fill-opacity="1" d="M0,288L1440,160L1440,0L0,0Z"></path>
+</svg>
+
+
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module">
+    import Products from "./js/products";
+
+    const products = new Products();
+
+
+</script>
+</body>
+</html>
+
