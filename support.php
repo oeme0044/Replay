@@ -44,11 +44,11 @@
 </div>
 
 
-<div class="container-fluid">
+<div class="container-fluid" data-aos="fade-up">
     <div class="row">
 
-        <div class="sektion1 col-sm-12 col-md-12 col-lg-8" data-aos="fade-right">
-            <div class="home__img contact-section">
+        <div class="sektion1 col-sm-12 col-md-12 col-lg-8">
+            <div class="contact-section">
                 <p class="ksekover">Kontakt os herunder</p>
                 <div class="line1"></div>
 
@@ -67,7 +67,7 @@
 
 
         </div>
-        <div class="sektion2 col-sm-12 col-md-12 col-lg-4"  data-aos="fade-left">
+        <div class="sektion2 col-sm-12 col-md-12 col-lg-4">
             <div class="kontaktinfo">
                 <p class="infoover">Kontakt information</p>
                 <div class="line2"></div>
