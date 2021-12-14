@@ -26,8 +26,8 @@ $data = json_decode(file_get_contents('php://input'), true);
 
 header('Content-Type: application/json; charset=utf-8');
 
-if (isset($data["password"]) && $data["password"] == "") {
-    $sql = "SELECT * FROM replay_produkter WHERE 1=1";
+if (isset($data["password"]) && $data["password"] == "1234") {
+    $sql = "SELECT * FROM produkter WHERE 1=1";
     $bind = [];
 
     if (!empty($data["navnSearch"])) {
