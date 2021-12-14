@@ -1,7 +1,7 @@
 export default class Products {
     constructor() {
         this.data = {
-            password: "Bnop1146"
+            password: ""
 
         }
 
