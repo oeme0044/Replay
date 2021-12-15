@@ -40,7 +40,7 @@
 
 
 <!-- NavBar Style 3     -->
-<div class="navbarwrap bg-white">
+<div class="navbar-wrap bg-white">
     <div class="container mt-3 mb-3">
 
         <nav class="navbar navbar-expand-lg">
@@ -64,7 +64,7 @@
                         <a class="nav-link ms-2 mt-3 text-uppercase" href="#">tilbehør</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2 ms-lg-0 mt-3  mb-2 text-uppercase" href="#">support</a>
+                        <a class="nav-link ms-2 mt-3  mb-2 text-uppercase" href="#">support</a>
                     </li>
 
                 </ul>
