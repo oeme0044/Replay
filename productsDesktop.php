@@ -28,6 +28,34 @@
     <div class="herosek"></div>
 </div>
 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+    <path fill="#f01012" fill-opacity="1" d="M0,128L1440,32L1440,320L0,320Z"></path>
+</svg>
+
+<div class="gameon-section">
+    <div class="container">
+        <div class="d-flex justify-content-center" style="height: 400px">
+            <div class="align-self-center border-for-text p-5">
+                <h1 class="text-center text-white" style="font-family: 'Red Hat Display',serif" >Game On</h1>
+                <div class="badge text-wrap text-center" style="width: 30rem; font-family: 'Poppins',serif; font-size: xx-large">
+                    Med en computer fra os
+                    er du klar til at game på
+                    nul komma fem, plus er
+                    alle vores computere og
+                    komponenter testet,
+                    opdateret og klar til kamp
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+    <path fill="#f01012" fill-opacity="1" d="M0,64L1440,160L1440,0L0,0Z"></path>
+</svg>
+
+
+
 
 <div class="container p-5">
     <div class="products  ">
