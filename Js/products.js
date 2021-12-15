@@ -9,15 +9,13 @@ export default class Products {
         this.filter = this.rootElem.querySelector('.filter');
         this.items = this.rootElem.querySelector('.items');
 
-        this.navnSearch = this.filter.querySelector('.navnSearch');
-        this.processerSearch = this.filter.querySelector('.processerSearch');
-
+        this.trackSearch = this.filter.querySelector('.trackSearch');
+        this.releaseSearch = this.filter.querySelector('.releaseSearch');
 
         this.render();
 
-
-
     }
+
 
 
 
@@ -34,7 +32,7 @@ export default class Products {
 
         for(const item of data){
             const col = document.createElement('div');
-            col.classList.add('col-md-6', 'col-lg-3',);
+            col.classList.add('col-md-6', 'col-lg-4', 'col-xl-3');
 
             col.innerHTML = `
             <div class="container">   
@@ -48,7 +46,10 @@ export default class Products {
                     <a href="#" class="btn m-5 btn-primary text-white border-white">Se Mere</a>
                 </div>
             </div>   
-         
+
+                
+                
+                
                 
             
             `;
@@ -67,9 +68,9 @@ export default class Products {
     async getData (){
 
 
-        //this.data.navnSearch = this.navnSearch.value;
-        //this.data.grafikkortSearch = this.navnSearch.value;
-        //this.data.processerSearch = this.processerSearch.value;
+        //this.data.trackSearch = this.trackSearch.value;
+        //this.data.artistSearch = this.trackSearch.value;
+        //this.data.releaseSearch = this.releaseSearch.value;
 
         const response = await fetch('prodApi.php', {
             method: "POST",

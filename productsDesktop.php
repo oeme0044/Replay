@@ -17,7 +17,7 @@
     <script src="https://kit.fontawesome.com/51ba2cda25.js" crossorigin="anonymous"></script> <script src="https://kit.fontawesome.com/51ba2cda25.js" crossorigin="anonymous"></script>
     <link href="css/footer.css" rel="stylesheet" type="text/css">
 
-    <link href="css/navbar.css" rel="stylesheet">
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -88,8 +88,8 @@
 
 
 
-<?php include 'includes/footer.php'; ?>
 
+<?php include 'includes/footer.php'; ?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script type="module">
@@ -99,8 +99,6 @@
 
 
 </script>
-
-
 
 </body>
 </html>
