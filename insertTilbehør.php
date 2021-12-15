@@ -1,37 +1,4 @@
-<?php
-require "settings/init.php";
 
-if (!empty($_POST["data"])) {
-    $data = $_POST["data"];
-    $file = $_FILES;
-
-    if (!empty($file["tilbeImage"]["tmp_name"])) {
-        move_uploaded_file($file["tilbeImage"]["tmp_name"], "uploads/" . basename($file["tilbeImage"]["name"]));
-
-    }
-
-
-    $sql = "INSERT INTO tilbehør (tilbeNavn, tilbePrismrd, tilbeStat1, tilbeStat2, tilbeStat3,  tilbeImage) VALUES 
-                                        (:tilbeNavn, :tilbePrismrd, :tilbeStat1, :tilbeStat2, :tilbeStat3,  :tilbeImage)";
-    $bind = [
-
-        "tilbeNavn" => $data["tilbeNavn"],
-        "tilbePrismrd" => $data["tilbePrismrd"],
-        "tilbeStat1" => $data["tilbeStat1"],
-        "tilbeStat2" => $data["tilbeStat2"],
-        "tilbeStat3" => $data["tilbeStat3"],
-        "tilbeImage" => (!empty($file["tilbeImage"]["tmp_name"])) ? $file["tilbeImage"]["name"] : NULL,
-    ];
-
-    $db->sql($sql, $bind, false);
-
-    header("Location: insert.php?status=1");
-    exit;
-
-}
-
-
-?>
 
 
 <!DOCTYPE html>
@@ -170,7 +137,7 @@ if (!empty($_POST["data"])) {
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a class="btn btn-primary" type="button" href="insert.php" role="button">Insert New Artist</a>
+                <a class="btn btn-primary" type="button" href="insertTilbehør.php" role="button">Insert New Artist</a>
             </div>
         </div>
     </div>
@@ -193,16 +160,3 @@ if (!empty($_POST["data"])) {
     modal.addEventListener('hide.bs.modal', () => {
         window.history.replaceState(null, null, window.location.pathname);
     })
-
-    if (status === "1") {
-        bsModal.show();
-    }
-
-</script>
-
-
-</body>
-
-
-</html>
-

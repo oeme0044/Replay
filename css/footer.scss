@@ -1,146 +1,40 @@
-.page-footer{
-  background-color: #101010;
-
+.footer{
+  background-color: var(--text-color);
 }
-
-.footerMargin{
-  width: 80%;
+.fotover{
+  font-family: var(--overskrift-font);
 }
-
-.footerMenu{
-  width: 85%;
-  h2{
-    text-transform: capitalize;
-    color: var(--white-color);
-    font-family: var(--overskrift-font);
-    @media screen and(min-width: 768px){
-      font-size: 26px ;
-    }
-
-  }
-  a{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-transform: capitalize;
-    color: var(--white-color);
-    text-decoration: none;
-    display: block;
-    font-family: var(--tekst-font);
-    font-size: 15px;
-  }
-
+.footer-link{
+  font-family: var(--tekst-font);
+  font-size: 14px;
 }
-@media screen and(min-width: 576px){
-  a{
-    font-size: 16px;
-  }
-  margin-top: 0;
-
-}
-
-  .footerSupport{
-  margin-top: 4rem;
-
-  h2{
-    text-transform: capitalize;
-    color: var(--white-color);
-    font-family: var(--overskrift-font);
-
-    @media screen and(min-width: 768px){
-      font-size: 26px ;
-    }
-  }
-  a{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: var(--white-color);
-    text-decoration: none;
-    display: block;
-    font-family: var(--tekst-font);
-    font-size: 15px;
-
-  }
-  @media screen and(min-width: 576px){
-    a{
-      font-size: 16px;
-    }
-    margin-top: 0;
-
-  }
-
-}
-
-.footerFollow{
-
-  margin-top: 4rem;
-
-  h2{
-    text-transform: capitalize;
-    color: var(--white-color);
-    font-family: var(--overskrift-font);
-
-    @media screen and(min-width: 768px){
-      font-size: 26px ;
-    }
-  }
-
-  .icons{
-    font-size: 40px;
-    margin: 5px;
-    text-decoration: none;
-    color: var(--white-color);
-  }
-
-  @media screen and(min-width: 576px){
-    margin-top: 4rem;
-
-  }
-
-  @media screen and(min-width: 992px){
-    margin-top: 0;
-    text-align: end;
-  }
-}
-
-.footerLine{
-  width: 80%;
-  height: 2px;
-  background-color: white;
-  margin: auto;
-
-  @media screen and(min-width: 992px){
-    margin-top: 2rem;
-    width: 85%;
-  }
-}
-
 .copyright{
-  width: 80%;
-  margin: 1rem auto;
-  color: var(--white-color);
   font-family: var(--tekst-font);
-  font-size: 12px;
-
-  @media screen and (min-width: 576px){
-    margin-top: 5rem;
-    font-size: 13px;
-
-  }
+  font-size: 11px;
+}
+.sm{
+  font-size: 24px;
 }
 
-.danmark{
-  width: 80%;
-  margin: auto;
-  color: var(--white-color);
-  font-family: var(--tekst-font);
-  font-size: 12px;
-
-  @media screen and (min-width: 576px){
-    margin-top: 5rem;
-    text-align: end;
-    font-size: 13px;
 
 
 
+@media (min-width: 768px){
+  .copyright{
+    font-size: 10px;
   }
+
+}
+
+@media (min-width: 1024px){
+  .fotover{
+    font-size: 26px;
+  }
+  .footer-link{
+    font-size: 14px;
+  }
+  .copyright{
+    font-size: 12px;
+  }
+
 }
