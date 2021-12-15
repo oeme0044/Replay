@@ -24,10 +24,10 @@
 
 <?php include 'includes/navbar.php'; ?>
 
-<div class="heroimage">
-    <img src="Image/desk.png" class=" w-100 mobil"  alt="...">
-    <img src="Image/Oliver-Hero-Image.png" class=" w-100 desk"  alt="...">
 
+<div class="heroimage">
+    <img src="Image/tilbehør-mobil.png" class=" w-100 mobil"  alt="tilbehørBillede">
+    <img src="Image/tilbehør.png" class=" w-100 desk"  alt="tilbehørBillede">
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
@@ -35,20 +35,17 @@
 </svg>
 
 
-    <div class="gameon-section">
-        <div class="gameon-border">
-        <h2>desktop</h2>
-        <p>Replay.dk sælger primært brugte Gaming computere, hvor komponenterne er blevet taget fra flere computere og samlet til en super PC. Udstyret har gennemgået en streng kvalitetskontrol og de brugte computere er renset, reinstalleret og opdateret med de seneste Drivers.</p>
-        </div>
+<div class="gameon-section">
+    <div class="gameon-border">
+        <h2>tilbehør</h2>
+        <p>Replay.dk sælger primært brugte mærkevare produkter som ??, ??, ??, ?? og ??. Udstyret har gennemgået en streng kvalitetskontrol og de brugte computere er renset, reinstalleret og opdateret med de seneste systemer.</p>
     </div>
+</div>
 
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
     <path fill="#f01012" fill-opacity="1" d="M0,64L1440,160L1440,0L0,0Z"></path>
 </svg>
-
-
-
 
 <div class="container p-5">
     <div class="products  ">
@@ -72,9 +69,9 @@
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script type="module">
-    import Products from "./js/products";
+    import Accessories from "./js/tilbehør";
 
-    const products = new Products();
+    const products = new Accessories();
 
 
 </script>
@@ -83,3 +80,4 @@
 
 </body>
 </html>
+

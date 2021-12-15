@@ -1,4 +1,4 @@
-export default class Products {
+export default class Accessories {
     constructor() {
         this.data = {
             password: "1234"

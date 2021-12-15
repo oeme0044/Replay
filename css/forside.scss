@@ -35,21 +35,61 @@ img {
   height: auto;
 }
 
-.herobillede {
+.heroimage{
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .mobil{
+    display: block;
+  }
+  .desk{
+    display: none;
+  }
+
+  @media screen and(min-width:  768px) {
+    .mobil{
+      display: none;
+    }
+    .desk{
+    display: block;
+    }
+    
+  }
+ 
+}
+
+.herobilledeTilbe {
   width:100%;
-  background:url(../image/Replay-Hero-image.png);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(../image/tilbehør.png) no-repeat center;
   background-size: cover;
 }
 
 
-
 .gameon-section{
   background-color: var(--first-color);
+
+  .gameon-border{
+    border: solid black 2px;
+    border-radius: 3px;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    text-transform: capitalize;
+
+    h2{
+      margin: 15px;
+    }
+    p{
+      margin: 15px;
+    }
+  }
+
 }
 
 .border-for-text{
@@ -124,7 +164,7 @@ img {
   height: 250px;
   width: 100%;
   padding: 10px;
-  object-fit: inherit;
+  object-fit: cover;
 
 }
 
@@ -143,6 +183,14 @@ img {
 @media screen and (min-width: 768px ) {
 
   .herobillede{
+    height: 40vh;
+  }
+
+  .herobilledeTilbe{
+    height: 40vh;
+  }
+
+  .herobilledeDesk{
     height: 40vh;
   }
 
@@ -179,6 +227,15 @@ img {
   .herobillede{
     height: 75vh;
   }
+
+  .herobilledeTilbe{
+    height: 75vh;
+  }
+
+  .herobilledeDesk{
+    height: 75vh;
+  }
+
 
   .card-text-skills {
     margin: 0;
