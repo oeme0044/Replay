@@ -35,22 +35,30 @@ img {
   height: auto;
 }
 
-.herobillede {
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../image/Replay-Hero-image.png) no-repeat center;
+.heroimage{
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-}
+  position: relative;
 
-.herobilledeDesk {
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url(../image/Oliver-Hero-Image.png) no-repeat center;
-  background-size: cover;
+  .mobil{
+    display: block;
+  }
+  .desk{
+    display: none;
+  }
+
+  @media screen and(min-width:  768px) {
+    .mobil{
+      display: none;
+    }
+    .desk{
+    display: block;
+    }
+    
+  }
+ 
 }
 
 .herobilledeTilbe {
@@ -65,6 +73,23 @@ img {
 
 .gameon-section{
   background-color: var(--first-color);
+
+  .gameon-border{
+    border: solid black 2px;
+    border-radius: 3px;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    text-transform: capitalize;
+
+    h2{
+      margin: 15px;
+    }
+    p{
+      margin: 15px;
+    }
+  }
+
 }
 
 .border-for-text{

@@ -25,10 +25,27 @@
 <?php include 'includes/navbar.php'; ?>
 
 
-<div class="px-5 py-5 text-left herobilledeTilbe">
-    <div class="herosek"></div>
+<div class="heroimage">
+    <img src="Image/tilbehør-mobil.png" class=" w-100 mobil"  alt="tilbehørBillede">
+    <img src="Image/tilbehør.png" class=" w-100 desk"  alt="tilbehørBillede">
 </div>
 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+    <path fill="#f01012" fill-opacity="1" d="M0,128L1440,32L1440,320L0,320Z"></path>
+</svg>
+
+
+<div class="gameon-section">
+    <div class="gameon-border">
+        <h2>tilbehør</h2>
+        <p>Replay.dk sælger primært brugte mærkevare produkter som ??, ??, ??, ?? og ??. Udstyret har gennemgået en streng kvalitetskontrol og de brugte computere er renset, reinstalleret og opdateret med de seneste systemer.</p>
+    </div>
+</div>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+    <path fill="#f01012" fill-opacity="1" d="M0,64L1440,160L1440,0L0,0Z"></path>
+</svg>
 
 <div class="container p-5">
     <div class="products  ">

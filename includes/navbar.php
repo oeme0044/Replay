@@ -40,12 +40,12 @@
 
 
 <!-- NavBar Style 3     -->
-<div class="navbarwrap bg-white">
-    <div class="container mt-3 mb-3">
+<div class="navbar-wrap">
+    <div class="container">
 
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand ms-2" href="#">
-                <img src="./Image/Replay%20Logo%20sort.svg" alt="" width="100%" height="30">
+                <img src="./Image/Replay%20Logo%20Hvid.svg" alt="" width="100%" height="30">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,24 +54,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto me-lg-5">
                     <li class="nav-item">
-                        <a class="nav-link  ms-2 mt-3 text-uppercase" href="#">desktops</a>
+                        <a class="nav-link  ms-2 mt-3 text-uppercase text-white" href="#">desktops</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link ms-2 mt-3 text-uppercase" href="#">skærme</a>
+                        <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="#">skærme</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2 mt-3 text-uppercase" href="#">tilbehør</a>
+                        <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="#">tilbehør</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2 ms-lg-0 mt-3  mb-2 text-uppercase" href="#">support</a>
+                        <a class="nav-link ms-2 mt-3  mb-2 text-uppercase text-white" href="#">support</a>
                     </li>
 
                 </ul>
                 <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">
-                        <a href="#" class="kurv ms-2"><i class="fas fa-shopping-bag"></i></a>
+                        <a href="#" class="kurv ms-2"><i class="fas fa-shopping-bag text-white"></i></a>
                     </li>
                 </ul>
             </div>
