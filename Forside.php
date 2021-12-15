@@ -45,7 +45,7 @@
         <div class="d-flex justify-content-center" style="height: 400px">
             <div class="align-self-center border-for-text p-5">
                 <h1 class="text-center text-white" style="font-family: 'Red Hat Display',serif" >Game On</h1>
-                <div class="badge badge-primary text-wrap text-center" style="width: 30rem; font-family: 'Poppins',serif; font-size: xx-large">
+                <div class="badge text-wrap text-center" style="width: 30rem; font-family: 'Poppins',serif; font-size: xx-large">
                     Med en computer fra os
                     er du klar til at game på
                     nul komma fem, plus er

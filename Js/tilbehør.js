@@ -12,8 +12,20 @@ export default class Accessories {
         this.navnSearch = this.filter.querySelector('.navnSearch');
         this.processerSearch = this.filter.querySelector('.processerSearch');
 
-        this.render();
+
     }
+
+    async init(){
+
+
+
+
+
+        await this.render();
+
+    }
+
+
 
     async render(){
         const data = await this.getData();
@@ -23,22 +35,22 @@ export default class Accessories {
 
         for(const item of data){
             const col = document.createElement('div');
-            col.classList.add('col-md-6', 'col-lg-3',);
+            col.classList.add('col-md-6', 'col-lg-4',);
 
             col.innerHTML = `
             <div class="container">   
                 <div class="card-body-products text-center">
-                    <img src="uploads/${item.prodImage}" class="card-img-top" alt="">
-                    <h5 class="card-title text-black">${item.prodNavn}</h5>
-                    <p class="text-muted mb-3">Fra ${item.prodPrismrd} kr/md.</p>
-                    <p class="card-text p-1 text-black">${item.prodProcesser}</p>
-                    <p class="card-text p-1 text-black">${item.prodGrafikkort}</p>
-                    <p class="card-text p-1 text-black">${item.prodRam}</p>
+                    <img src="uploads/${item.tilbeImage}" class="card-img-top" alt="">
+                    <h5 class="card-title text-black">${item.tilbeNavn}</h5>
+                    <p class="text-muted mb-3">Fra ${item.tilbePrismrd} kr/md.</p>
+                    <p class="card-text p-1 text-black">${item.tilbeStat1}</p>
+                    <p class="card-text p-1 text-black">${item.tilbeStat2}</p>
+                    <p class="card-text p-1 text-black">${item.tilbeStat3}</p>
                     <a href="#" class="btn m-5 btn-primary text-white border-white">Se Mere</a>
                 </div>
             </div>   
          
-                
+               
             
             `;
 

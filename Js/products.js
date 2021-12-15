@@ -12,8 +12,19 @@ export default class Products {
         this.navnSearch = this.filter.querySelector('.navnSearch');
         this.processerSearch = this.filter.querySelector('.processerSearch');
 
+
         this.render();
+
+
+
     }
+
+
+
+
+
+
+
 
     async render(){
         const data = await this.getData();

@@ -10,6 +10,9 @@
     <meta name="copyright" content="Information om copyright">
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+    <link href="css/navbar.css" rel="stylesheet" type="text/css">
+    <link href="css/footer.css" rel="stylesheet" type="text/css">
     <link href="css/forside.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/51ba2cda25.js" crossorigin="anonymous"></script> <script src="https://kit.fontawesome.com/51ba2cda25.js" crossorigin="anonymous"></script>
     <link href="css/footer.css" rel="stylesheet" type="text/css">
@@ -51,15 +54,17 @@
 
 
 <div class="container p-5">
-    <div class="products  ">
+    <div class="products">
         <div class="filter p-5"></div>
 
 
-        <div class="items ">
+        <div class="items">
             <!-- Her vises musikken -->
         </div>
     </div>
 </div>
+
+
 
 <div class="container">
     <div class="prev/next ">

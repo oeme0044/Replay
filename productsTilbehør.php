@@ -13,7 +13,6 @@
     <link href="css/forside.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/51ba2cda25.js" crossorigin="anonymous"></script> <script src="https://kit.fontawesome.com/51ba2cda25.js" crossorigin="anonymous"></script>
     <link href="css/footer.css" rel="stylesheet" type="text/css">
-
     <link href="css/navbar.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,11 +47,11 @@
 </svg>
 
 <div class="container p-5">
-    <div class="products  ">
+    <div class="accessories">
         <div class="filter p-5"></div>
 
 
-        <div class="items ">
+        <div class="items">
             <!-- Her vises musikken -->
         </div>
     </div>
@@ -91,7 +90,7 @@
 <script type="module">
     import Accessories from "./js/tilbehør";
 
-    const products = new Accessories();
+    const accessories = new Accessories();
 
 
 </script>
