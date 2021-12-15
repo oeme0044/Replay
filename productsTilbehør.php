@@ -58,7 +58,16 @@
     </div>
 </div>
 
+<div class="image_bund ">
+    <img src="Image/desk-2.png" class=" w-100 mobil"  alt="...">
+    <img src="Image/Oliver-Hero-Image.png" class=" w-100 desk"  alt="...">
 
+    <div class="hero-text-bund">
+        <button class="text-white">se mere</button>
+    </div>
+
+
+</div>
 
 
 

@@ -61,7 +61,15 @@
     </div>
 </div>
 
+<div class="image_bund_2 ">
+    <img src="Image/tilbehør-mobil2.png" class=" mobil"  alt="...">
+    <img src="Image/tilbehør.png" class=" w-100 desk"  alt="tilbehørBillede">
+    <div class="hero-text-bund">
+        <button class="text-white">se mere</button>
+    </div>
 
+
+</div>
 
 
 

@@ -61,6 +61,212 @@ img {
  
 }
 
+.image_bund {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  .mobil{
+    display: block;
+  }
+  .desk{
+    display: none;
+  }
+
+  @media screen and(min-width:  768px) {
+    .mobil{
+      display: none;
+    }
+    .desk{
+      display: block;
+    }
+
+  }
+}
+.hero-text-bund button {
+  border: white solid ;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  font-family: "Red Hat Display";
+
+  .mobil{
+    display: block;
+  }
+  .desk{
+    display: none;
+  }
+
+  @media screen and(min-width:  768px) {
+
+    top: 77%;
+    left: 70%;
+
+    .mobil{
+      display: none;
+    }
+    .desk{
+      display: block;
+    }
+
+  }
+}
+
+.hero-text-bund button {
+  border: white solid ;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  font-family: "Red Hat Display";
+
+  .mobil{
+    display: block;
+  }
+  .desk{
+    display: none;
+  }
+
+  @media screen and(min-width:  768px) {
+
+    top: 77%;
+    left: 70%;
+
+    .mobil{
+      display: none;
+    }
+    .desk{
+      display: block;
+    }
+
+  }
+}
+.image_bund_2 {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  .mobil{
+    display: block;
+  }
+  .desk{
+    display: none;
+  }
+
+  @media screen and(min-width:  768px) {
+    .mobil{
+      display: none;
+    }
+    .desk{
+      display: block;
+    }
+
+  }
+}
+.hero-text-bund button {
+  border: white solid ;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  font-family: "Red Hat Display";
+
+  .mobil{
+    display: block;
+  }
+  .desk{
+    display: none;
+  }
+
+  @media screen and(min-width:  768px) {
+
+    top: 77%;
+    left: 72%;
+
+    .mobil{
+      display: none;
+    }
+    .desk{
+      display: block;
+    }
+
+  }
+}
+
+.hero-text-bund button {
+  border: white solid ;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  font-family: "Red Hat Display";
+
+  .mobil{
+    display: block;
+  }
+  .desk{
+    display: none;
+  }
+
+  @media screen and(min-width:  768px) {
+
+    top: 77%;
+    left: 70%;
+
+    .mobil{
+      display: none;
+    }
+    .desk{
+      display: block;
+    }
+
+  }
+}
+
+
+.hero-text-bund button:hover {
+  background-color: #101010;
+  color: white;
+
+}
+
 .herobilledeTilbe {
   width:100%;
   display: flex;
@@ -80,10 +286,12 @@ img {
     width: 50%;
     margin: 0 auto;
     color: white;
-    text-transform: capitalize;
+
+
 
     h2{
       margin: 15px;
+      text-transform: capitalize;
     }
     p{
       margin: 15px;
