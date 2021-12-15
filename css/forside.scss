@@ -486,3 +486,30 @@ img {
 }
 
 
+
+/* fake skift side */
+
+.prev\/next{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+  .icon{
+  font-size: 30px;
+    margin-right: 10px;
+    color: #A22727;
+  }
+  .icon2{
+    font-size: 30px;
+    margin-left: 10px;
+    color: #A22727;
+  }
+  .numberBox{
+    border: black solid 2px;
+    min-width: 30px;
+    text-align: center;
+    .number{
+      font-family: "Red Hat Display", sans-serif;
+    }
+  }
+}

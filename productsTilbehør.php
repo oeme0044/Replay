@@ -58,6 +58,17 @@
     </div>
 </div>
 
+
+<div class="container">
+    <div class="prev/next ">
+        <i class="fas fa-chevron-left icon "></i>
+        <div class="numberBox">
+            <div class="number">1</div>
+        </div>
+        <i class="fas fa-chevron-right icon2"></i>
+    </div>
+</div>
+
 <div class="image_bund ">
     <img src="Image/desk-2.png" class=" w-100 mobil"  alt="...">
     <img src="Image/Oliver-Hero-Image.png" class=" w-100 desk"  alt="...">
