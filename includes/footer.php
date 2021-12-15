@@ -36,12 +36,12 @@
     <div class="row py-5 m-md-3">
         <div class="col-sm-12 col-md-2 col-lg-2 m-0 m-md-0">
             <a href="#" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                <img src="#" class="bi " width="100%" height="32">
+                <img src="./Image/Replay%20Logo%20Hvid.svg" class="bi " width="100%" height="32">
 
             </a>
         </div>
 
-        <div class="col-md-1">
+        <div class="col-md-1 col-lg-2">
 
         </div>
 
@@ -62,11 +62,11 @@
             </ul>
         </div>
 
-        <div class="co-sm-12 col-md-3 m-3 col-lg-3 m-md-0">
+        <div class="co-sm-12 col-md-3 m-3 col-lg-2 m-md-0">
             <h5 class="fotover mb-3 text-white">Fang os på</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2 text-white"></li>
-                <li class="nav-item mb-2 text-white"></li>
+            <ul class="nav flex-row">
+                <li class="me-3"><a class="text-white" href="#"><i class="sm fab fa-facebook-f"></i></a></li>
+                <li class=""><a class="text-white" href="#"><i class="sm fab fa-instagram"></i></a></li>
             </ul>
         </div>
     </div>
