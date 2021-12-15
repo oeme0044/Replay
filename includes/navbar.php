@@ -40,7 +40,7 @@
 
 
 <!-- NavBar Style 3     -->
-<div class="navbar-wrap">
+<div class="navbar-wrap pt-3 pb-3">
     <div class="container">
 
         <nav class="navbar navbar-expand-lg">
