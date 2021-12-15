@@ -71,7 +71,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top">
             <div class="col-md-4 d-flex align-items-center justify-content-center justify-content-md-start mb-2">
                 <span class="copyright text-white">&copy; Copyrigt 2021. Alle rettigheder forbeholdes</span>
             </div>
