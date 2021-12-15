@@ -24,7 +24,8 @@
 
 <?php include 'includes/navbar.php'; ?>
 
-<div class="px-5 py-5 text-left herobilledeDesk">
+
+<div class="px-5 py-5 text-left herobilledeTilbe">
     <div class="herosek"></div>
 </div>
 
@@ -51,9 +52,9 @@
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script type="module">
-    import Products from "./js/products";
+    import Accessories from "./js/tilbehør";
 
-    const products = new Products();
+    const products = new Accessories();
 
 
 </script>
@@ -62,3 +63,4 @@
 
 </body>
 </html>
+
