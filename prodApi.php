@@ -71,10 +71,10 @@ if (isset($data["password"]) && $data["password"] == "1234") {
 
 
 
-    $replay_produkter = $db->sql($sql, $bind);
+    $products = $db->sql($sql, $bind);
     header("HTTP/1.1 200 OK");
 
-    echo json_encode($replay_produkter);
+    echo json_encode($products);
 
 } else {
     header("HTTP/1.1 401 Unauthorized");
