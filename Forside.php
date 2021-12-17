@@ -124,12 +124,12 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
             <div class="card mb-4" style="width: 18rem;">
-                <img src="uploads/Replay Gaming PC.png" class="card-img-top" alt="...">
+                <img src="uploads/Gaming PC 2.png" class="card-img-top" alt="...">
                 <div class="card-body text-center">
-                    <h5 class="anover card-title mb-3 text-white">Replay Gaming PC</h5>
-                    <p class="antekst card-text text-white">Intel® Core™ i5-12600KF</p>
-                    <p class="antekst card-text text-white">Nvidia RTX 3060</p>
-                    <p class="antekst card-text mb-4 text-white">16gb ram</p>
+                    <h5 class="anover card-title mb-3 text-white">Ømer Special</h5>
+                    <p class="antekst card-text text-white">Intel® Pentium 4</p>
+                    <p class="antekst card-text text-white">Nvidia GTX 730</p>
+                    <p class="antekst card-text mb-4 text-white">4gb ram</p>
 
                     <a href="#" class="anbtn btn btn-primary bg-white">Læs mere</a>
                 </div>
@@ -137,12 +137,12 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
             <div class="card mb-4" style="width: 18rem;">
-                <img src="uploads/Replay Gaming PC.png" class="card-img-top" alt="...">
+                <img src="uploads/Streamer PC.png" class="card-img-top" alt="...">
                 <div class="card-body text-center">
-                    <h5 class="anover card-title mb-3 text-white">Replay Gaming PC</h5>
-                    <p class="antekst card-text text-white">Intel® Core™ i5-12600KF</p>
-                    <p class="antekst card-text text-white">Nvidia RTX 3060</p>
-                    <p class="antekst card-text mb-4 text-white">16gb ram</p>
+                    <h5 class="anover card-title mb-3 text-white">Streamer PC</h5>
+                    <p class="antekst card-text text-white">ntel® Core™ I5-10400F</p>
+                    <p class="antekst card-text text-white">Nvidia GTX 1050 ti</p>
+                    <p class="antekst card-text mb-4 text-white">8gb ram</p>
 
                     <a href="#" class="anbtn btn btn-primary bg-white">Læs mere</a>
                 </div>

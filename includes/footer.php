@@ -35,7 +35,7 @@
 <div class="container">
     <div class="row py-5 m-md-3">
         <div class="col-sm-12 col-md-2 col-lg-2 m-0 m-md-0">
-            <a href="#" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+            <a href="Forside.php" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
                 <img src="./Image/Replay%20Logo%20Hvid.svg" class="bi " width="100%" height="32">
 
             </a>
@@ -49,7 +49,6 @@
             <h5 class="fotover mb-2 text-white">Produkter</h5>
             <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="#" class="footer-link p-0 text-decoration-none text-white">Desktops</a></li>
-                <li class="nav-item mb-2"><a href="#" class="footer-link p-0 text-decoration-none text-white">Skærme</a></li>
                 <li class="nav-item mb-2"><a href="#" class="footer-link p-0 text-decoration-none text-white">Tilbehør</a></li>
             </ul>
         </div>
@@ -57,8 +56,8 @@
         <div class="col-sm-12 col-md-3 col-lg-3 m-3 m-md-0">
             <h5 class="fotover mb-2 text-white">Support</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="footer-link p-0 text-white text-decoration-none">Kontakt</a></li>
-                <li class="nav-item mb-2"><a href="#" class="footer-link p-0 text-white text-decoration-none">Om os</a></li>
+                <li class="nav-item mb-2"><a href="support.php#kontaktformular" class="footer-link p-0 text-white text-decoration-none">Kontakt</a></li>
+                <li class="nav-item mb-2"><a href="support.php#omkontakt" class="footer-link p-0 text-white text-decoration-none">Om os</a></li>
             </ul>
         </div>
 

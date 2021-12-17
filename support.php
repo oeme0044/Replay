@@ -66,7 +66,7 @@ if (isset($_POST['email']) && $_POST['email'] !='') {
 
 
 
-<div class="container-fluid" data-aos="fade-up">
+<div class="container-fluid" data-aos="fade-up" id="kontaktformular">
     <div class="row">
 
         <div class="sektion1 col-sm-12 col-md-12 col-lg-8">
@@ -114,7 +114,7 @@ if (isset($_POST['email']) && $_POST['email'] !='') {
     <path fill="#f01012" fill-opacity="1" d="M0,128L1440,32L1440,320L0,320Z"></path>
 </svg>
 
-<div class="omreplay">
+<div class="omreplay" id="omkontakt">
     <div class="replaycon container" data-aos="fade-up">
     <p class="replayover">Om Replay</p>
     <div class="replayline"></div>

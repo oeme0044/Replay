@@ -44,7 +44,7 @@
     <div class="container">
 
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand ms-2" href="#">
+            <a class="navbar-brand ms-2" href="Forside.php">
                 <img src="./Image/Replay%20Logo%20Hvid.svg" alt="" width="100%" height="30">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,7 @@
                         <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="#">tilbehør</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2 mt-3  mb-2 text-uppercase text-white" href="#">support</a>
+                        <a class="nav-link ms-2 mt-3  mb-2 text-uppercase text-white" href="support.php">support</a>
                     </li>
 
                 </ul>
