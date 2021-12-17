@@ -37,7 +37,6 @@
         <div class="col-sm-12 col-md-2 col-lg-2 m-0 m-md-0">
             <a href="Forside.php" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
                 <img src="./Image/Replay%20Logo%20Hvid.svg" class="bi " width="100%" height="32">
-
             </a>
         </div>
 
