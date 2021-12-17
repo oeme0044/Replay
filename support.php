@@ -115,7 +115,7 @@ if (isset($_POST['email']) && $_POST['email'] !='') {
 </svg>
 
 <div class="omreplay" id="omkontakt">
-    <div class="replaycon container" data-aos="fade-up">
+    <div class="replaycon container" >
     <p class="replayover">Om Replay</p>
     <div class="replayline"></div>
     <p class="replaytekst">Vi er 4 gutter fra Lolland-Falster, som er gaming entusiaster. Vi kom på ideen om genbrugte gaming computere, da vi stod til at skulle opgradere vores computere. Vi måtte dog konkludere hvor svært det var at bygge en gaming PC i dag, med det store resource mangel. Vi tænkte at der var mange med samme problem, og valgte derfor at hjælpe vores
