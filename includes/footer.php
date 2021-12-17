@@ -47,8 +47,8 @@
         <div class="col-sm-12 col-md-3 col-lg-3 m-3 m-md-0">
             <h5 class="fotover mb-2 text-white">Produkter</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="footer-link p-0 text-decoration-none text-white">Desktops</a></li>
-                <li class="nav-item mb-2"><a href="#" class="footer-link p-0 text-decoration-none text-white">Tilbehør</a></li>
+                <li class="nav-item mb-2"><a href="http://www.bnopone.dk/Rock_finder" class="footer-link p-0 text-decoration-none text-white">Desktops</a></li>
+                <li class="nav-item mb-2"><a href="http://www.bnopone.dk/Replay_tilbehør" class="footer-link p-0 text-decoration-none text-white">Tilbehør</a></li>
             </ul>
         </div>
 

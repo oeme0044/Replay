@@ -54,10 +54,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto me-lg-5">
                     <li class="nav-item">
-                        <a class="nav-link  ms-2 mt-3 text-uppercase text-white" href="#">desktops</a>
+                        <a class="nav-link  ms-2 mt-3 text-uppercase text-white" href="http://www.bnopone.dk/Rock_finder">desktops</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="#">tilbehør</a>
+                        <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="http://www.bnopone.dk/Replay_tilbehør">tilbehør</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link ms-2 mt-3  mb-2 text-uppercase text-white" href="support.php">support</a>
