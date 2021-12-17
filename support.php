@@ -42,6 +42,28 @@
         <h1 class="imgover">Support</h1>
     </div>
 </div>
+<?php
+$message_sent = false;
+if (isset($_POST['email']) && $_POST['email'] !='') {
+
+    $userName = $_POST['name'];
+    $userEmail = $_POST['email'];
+    $messageSubject = $_POST['subject'];
+    $message = $_POST['message'];
+
+    $to = "tekbas425@gmail.com";
+    $body = "";
+
+    $body .= "Fra: " .$userName. "\r\n";
+    $body .= "Email: " .$userEmail. "\r\n";
+    $body .= "Besked: " .$message. "\r\n";
+
+    mail($to,$messageSubject,$body);
+
+    $message_sent = true;
+}
+?>
+
 
 
 <div class="container-fluid" data-aos="fade-up">
@@ -57,10 +79,10 @@
                     Vi vender tilbage med svar hurtigst muligt. Du er også velkommen til at ringe eller sende en sms.</p>
 
                 <form class="contact-form" action="#" method="post">
-                    <input type="text" class="contact-form-text" aria-label="" placeholder="Dit navn">
-                    <input type="email" class="contact-form-text"  aria-label="" placeholder="Email">
-                    <input type="text" class="contact-form-text"  aria-label="" placeholder="Telefon nr.">
-                    <textarea class="contact-form-text"  aria-label="" placeholder="Besked"></textarea>
+                    <input type="text" class="contact-form-text" aria-label="" placeholder="Dit navn" name="name" id="name">
+                    <input type="email" class="contact-form-text"  aria-label="" placeholder="Email" name="email" id="email">
+                    <input type="text" class="contact-form-text"  aria-label="" placeholder="Emne" name="">
+                    <textarea name="message" class="contact-form-text"  aria-label="" placeholder="Besked"></textarea>
                     <input type="submit" class="contact-form-btn" value="Send">
                 </form>
             </div>

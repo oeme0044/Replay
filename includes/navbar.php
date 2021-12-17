@@ -56,10 +56,6 @@
                     <li class="nav-item">
                         <a class="nav-link  ms-2 mt-3 text-uppercase text-white" href="#">desktops</a>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="#">skærme</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link ms-2 mt-3 text-uppercase text-white" href="#">tilbehør</a>
                     </li>

@@ -202,7 +202,7 @@ textarea.contact-form-text{
 .replaytekst{
   padding: 20px;
   line-height: 2.5;
-  font-size: 13px;
+  font-size: 14px;
   color:var(--white-color);
   margin-top: 5px;
   text-align: center;
@@ -316,6 +316,8 @@ textarea.contact-form-text{
   }
   .replaytekst{
     font-size: 15px;
+    width: 60%;
+    margin: auto;
   }
   .kortsektion{
     margin-bottom: 100px;
