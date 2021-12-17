@@ -118,7 +118,7 @@
                     <p class="antekst card-text text-white">Nvidia RTX 3060</p>
                     <p class="antekst card-text mb-4 text-white">16gb ram</p>
 
-                    <a href="#" class="anbtn btn btn-primary bg-white">Læs mere</a>
+                    <a href="http://www.bnopone.dk/Rock_finder" class="anbtn btn btn-primary bg-white">Læs mere</a>
                 </div>
             </div>
         </div>
@@ -131,7 +131,7 @@
                     <p class="antekst card-text text-white">Nvidia GTX 730</p>
                     <p class="antekst card-text mb-4 text-white">4gb ram</p>
 
-                    <a href="#" class="anbtn btn btn-primary bg-white">Læs mere</a>
+                    <a href="http://www.bnopone.dk/Rock_finder" class="anbtn btn btn-primary bg-white">Læs mere</a>
                 </div>
             </div>
         </div>
@@ -144,7 +144,7 @@
                     <p class="antekst card-text text-white">Nvidia GTX 1050 ti</p>
                     <p class="antekst card-text mb-4 text-white">8gb ram</p>
 
-                    <a href="#" class="anbtn btn btn-primary bg-white">Læs mere</a>
+                    <a href="http://www.bnopone.dk/Rock_finder" class="anbtn btn btn-primary bg-white">Læs mere</a>
                 </div>
             </div>
         </div>
